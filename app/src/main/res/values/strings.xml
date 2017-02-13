@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherGo</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="weather_go_api_key">5bc2d3c5be382a28</string>
+    <string name="default_zip_code">10001</string>
+    <string name="askfor_zip_code">Please input valid US Zip Code (5 digits)</string>
+    <string name="error_cannot_fetch_data">Unable to get weather information</string>
+    <string name="updating_weather_info">Updating weather information...</string>
+    <string name="most_updated_weather_info">The weather information is updated!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="weathergo_title">"WeatherGo by Yixuan Guo"</string>
+    <string name="weathergo_desc">"- designed weather report app supported by <a href ="https://www.wunderground.com/" target="_top">Weather Underground"</a></string>
+    <string name="error_msg">Oops, there is problem fetching weather, try REFRESH</string>
+</resources>

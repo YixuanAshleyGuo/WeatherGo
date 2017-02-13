@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Oops, there is problem occurs during fetching weather, try REFRESH"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="?android:attr/colorFocusedHighlight"
+        android:background="@android:color/white" />
+</LinearLayout>

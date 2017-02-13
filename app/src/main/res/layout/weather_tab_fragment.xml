@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/weather_layout">
+
+    <include android:id="@+id/condition_layout" layout="@layout/condition_tab_fragment"/>
+    <include android:id="@+id/forecast_layout" layout="@layout/forecast_tab_fragment"/>
+    <include android:id="@+id/hourly_layout" layout="@layout/hourly_tab_fragment"/>
+
+</FrameLayout>
