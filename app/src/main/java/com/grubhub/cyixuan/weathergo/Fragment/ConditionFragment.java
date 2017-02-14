@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.grubhub.cyixuan.weathergo.Adapter.ConditionAdapter;
 import com.grubhub.cyixuan.weathergo.R;
@@ -69,6 +70,7 @@ public class ConditionFragment extends Fragment implements UpdateableFragment{
         }
         catch (Exception e){
 //            title.setText(R.string.error_msg);
+            Toast.makeText(getContext(),R.string.error_msg,Toast.LENGTH_LONG).show();
             e.printStackTrace();
         }
 

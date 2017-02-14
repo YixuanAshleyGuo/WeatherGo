@@ -51,7 +51,7 @@ public class ForecastAdapter extends ArrayAdapter<ForecastdaySimple> {
 
         TextView time_view = (TextView) view.findViewById(R.id.hourly_list_time);
         FCTTIME fcttime = ilist.getDate();
-        time_view.setText(fcttime.getMon()+" "+fcttime.getMday()+" "+fcttime.getYear());
+        time_view.setText(fcttime.getMon_abbrev()+" "+fcttime.getMday()+", "+fcttime.getYear());
 
         TextView temp_view = (TextView)view.findViewById(R.id.hourly_list_temp);
         WeatherReportUnit temp_high = ilist.getTemp_high();
